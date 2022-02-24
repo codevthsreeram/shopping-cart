@@ -47,7 +47,7 @@ import { ProductQuantityComponent } from './product-quantity/product-quantity.co
     ]),
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    ToastrModule.forRoot(),
+    ToastrModule.forRoot({ positionClass: 'toast-bottom-right' }),
     NgxPaginationModule,
     AngularFireModule.initializeApp(environment.firebaseConfig)
   ],
